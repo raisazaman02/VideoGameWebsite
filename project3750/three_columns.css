@@ -1,0 +1,145 @@
+#left_column{
+float : left; width: 150px;
+background-color: #6D7D9D;
+padding-bottom: 320px;
+}
+
+nav li{
+list-style-type: none;
+padding-right: 15px;
+padding-top: 10px;
+}
+
+#right_column{
+float : right; width: 150px;
+background-color: #6D7D9D;
+text-align: center;
+padding-bottom: 68px;
+}
+
+main{
+padding: 10px;
+margin: 0 210px 0 300px; 
+color: white;
+}
+
+#wrapper{
+margin: 0 auto;           
+width: 80%;         
+min-width: 960px;
+max-width: 1200px;
+}
+
+footer{
+text-align: center;
+clear: both;
+background-color: black;
+color: white;
+font-size: small;
+padding-top: 10px;
+padding-bottom: 10px; 
+font-style: italic;
+}
+
+body{
+background-image:url("background.jpg");
+background-repeat: no-repeat;
+background-size: 170%, 170%;
+}
+
+h1 {
+line-height: 200%;
+background-image: url(logo2.png);
+background-size: contain;
+font-family: Monospace, Arial, Times New Roman;
+background-color: #111111; 
+background-position: right;
+background-repeat: no-repeat;
+padding-left: 10px;
+height: 72px;
+margin-bottom: 0;
+color: #CACBCD; 
+font-size: 2.5em;
+}
+
+#centerColor{
+background-color: #111111; 
+}
+
+h3{
+font-size: .9em;
+text-align: center;
+font-family: fantasy, Arial, Times New Roman;
+padding: 5px;
+}
+nav a { text-decoration: none;              
+ font-weight: bold; 
+ color: #091E4D;
+ }
+ 
+ nav a:hover { color: #CACBCD;
+ }
+ 
+#imageACseries{
+background-image: url(ac1.jpg);
+background-repeat: no-repeat;
+height: 300px;
+background-size: 100%, 100%;
+}
+
+h2{
+background-color: #6D7D9D;
+text-align: center;
+border: 1px solid #CCCDCF;
+}
+
+.link {
+color: #CACBCD; 
+font-style: italic;
+text-decoration: underline;
+}
+
+@media only all and (max-width: 768px){
+h1{
+height: 100%;
+font-size: 1.2em; 
+padding-left: 0.2em;
+}
+
+nav{
+padding: 0;
+}
+
+nav a{
+padding: 0.2em;
+display: block;
+font-size: 1.2em;
+border-bottom: 2px solid black;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+}
+
+nav li{
+display: block;
+margin: 0;
+padding: 0;
+}
+
+main{
+padding:0em 0.5em 0em 0.3em;}
+
+#imageACseries
+{
+display: none;
+}
+
+.pageSize{
+width: 50%;
+}
+}
+
+
+
